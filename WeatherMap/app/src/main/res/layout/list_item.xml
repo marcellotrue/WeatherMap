@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:background="@color/cast_expanded_controller_text_color"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/title"
+        android:textSize="16dp"
+        android:text="Serra Talhada"
+        android:id="@+id/city"
+        android:layout_marginLeft="10dp"
+        />
+    <ImageView
+        android:src="@drawable/quantum_ic_play_arrow_grey600_48"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cast_expanded_controller_background_color"
+        />
+
+</LinearLayout>
